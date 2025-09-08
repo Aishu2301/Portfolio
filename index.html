@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Swiper.js CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+    <!-- Font Awesome for Icons -->
+    <script src="https://kit.fontawesome.com/1f1b5c6127.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo">
+                <ul>
+                    <li><a href="#"><strong>Home</strong></a></li>
+                    <li><a href="#"><strong>About</strong></a></li>
+                    <li><a href="#"><strong>Skills</strong></a></li>
+                    <li><a href="#"><strong>Projects</strong></a></li>
+                    <li><a href="#"><strong>Portfolio</strong></a></li>
+                    <li><a href="#"><strong>Contact</strong></a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Aishwarya Eshwar</span> <br>Graduate Student at UB</h1>
+            </div>
+        </div>
+    </div>
+    <!-------About----------->
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/User.JPG" alt="Profile Picture">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        "Hi, I'm Aishwarya E, a Master's student in Computer Science at the State University of New York, Buffalo. I'm passionate about software development and have experience building and improving web applications using HTML, CSS, JavaScript, and Java for backend development. I have worked with RESTful APIs, database interactions, and real-time data updates to enhance application performance. Beyond coding, I enjoy collaborating with teams, solving problems, and continuously learning. Explore my portfolio to see my projects and work!"
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>June 2023 - Dec 2023</span><br>Software Engineering intern at Compsoft Technologies</li>
+                            <li><span>September 2023 - October 2023</span><br>Fund Raising Intern at Tare Zameen Foundation</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Master in Computer Science, UB New York</li>
+                            <li><span>2020 - 2024</span><br>Bachelor in Computer Science, DSATM India</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- ======== SKILLS SECTION WITH SWIPER SLIDER ======== -->
+<div id="skills">
+    <div class="container">
+        <h1 class="sub-title"><span>Skills</span></h1> 
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/angular.png" alt="Angular">
+                    <p>Angular</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/aws.jpg" alt="AWS">
+                    <p>AWS</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/css.png" alt="CSS">
+                    <p>CSS3</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/git.webp" alt="Git">
+                    <p>Git</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/html5.png" alt="html5">
+                    <p>HTML5</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/java.webp" alt="Java">
+                    <p>JAVA</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/js.png" alt="Javascript">
+                    <p>Javascript</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/nodejs.png" alt="Node.js">
+                    <p>Node.js</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/postgresql.png" alt="Postgresql">
+                    <p>Postgresql</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/python.png" alt="Python">
+                    <p>Python</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/react.png" alt="React">
+                    <p>React</p>
+                </div>
+                
+                <div class="swiper-slide">
+                    <img src="images/spring.png" alt="Spring boot">
+                    <p>Spring Boot</p>
+                </div>
+            </div>
+            </div>
+            <!-- Swiper Pagination -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+    </div>
+    
+</div>
+        
+    <!----------------Projects--------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title"><span>My Specialization</span>s</h1> 
+        <div class="project-list">
+            <div>
+                <i class="fa-solid fa-laptop-file"></i>
+                <h2>Full stack developer</h2>
+                <p>Description</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Developer</h2>
+                <p>Description</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class=""></i>
+                <h2>Coder</h2>
+                <p>Description</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------Portfolio---------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"><span>My Projects</span></h1> 
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work 1.jpg">
+                <div class="layer">
+                    <h3>Three-Layer authentication</h3>
+                    <p>The website gives 3 three layer of protection for user in order to login.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work 2.jpg">
+                <div class="layer">
+                    <h3>Proctor Diary</h3>
+                    <p>The website gives 3 three layer of protection for user in order to login.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work 3.png">
+                <div class="layer">
+                    <h3>Portfolio</h3>
+                    <p>The website gives 3 three layer of protection for user in order to login.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!---------------------Contact---------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"><span>Contact Me</span></h1>
+                <p><i class="fa-solid fa-paper-plane"></i>aishwaryae02@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>716-750-6266</p>
+                <div class="social-icons">
+                    <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
+                </div>
+                <a href="images/Aishwarya_CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn3">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy; 2024. All rights are reserved.</p>
+    </div>
+</div>
+
+
+    <!-- ======== SWIPER JS & CUSTOM JS ======== -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
